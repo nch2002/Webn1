@@ -13,7 +13,7 @@ public class ConnectDB {
         try {
             String url = "jdbc:sqlserver://localhost:1433;databaseName= webn1;encrypt=false;";
             String username = "sa";
-            String password = "123";
+            String password = "conghuan2911";
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
             connection = DriverManager.getConnection(url, username, password);
         } catch (ClassNotFoundException | SQLException ex) {
